@@ -1,0 +1,14 @@
+# Ignore all node_modules folders
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Ignore environment files (secrets)
+.env
+client/.env
+server/.env
+
+# Ignore logs or OS files
+*.log
+.DS_Store
+Thumbs.db

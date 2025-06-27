@@ -1,0 +1,42 @@
+.landing-container {
+  background-image: url('C:/Users/varun/OneDrive/Desktop/ccc project/client/public/images/cinema-bg.jpg'); /* Put a cinematic image in public/images/ */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.overlay {
+  background: rgba(188, 141, 141, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.movie-strip {
+  display: flex;
+  gap: 20px;
+}
+
+.movie-strip img {
+  width: 150px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #cea6a6;
+}
